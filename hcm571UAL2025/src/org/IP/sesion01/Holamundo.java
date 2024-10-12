@@ -1,4 +1,4 @@
-package hcm571IP2024;
+package org.IP.sesion01;
 
 public class Holamundo {
 
