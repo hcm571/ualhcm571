@@ -71,7 +71,7 @@ public class festival {
 			System.out.println("el tipo de entrada es incorrecto, revise las mayúsculas y los caracteres");
 			precioinicial = 0;
 		}
-		System.out.println("la entrada elegida es " + entrada );
+		System.out.println("la entrada elegida es " + tipodeentrada );
 		
 		
 		// AQUI SE SELECCIONARA SI LA ENTRADA TIENE PARKING O CAMPING Y SE SUMARA AL PROCESO DICIENDO EL PRECIO INICIAL FINAL //
