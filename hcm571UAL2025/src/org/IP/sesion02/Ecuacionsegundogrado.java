@@ -1,6 +1,5 @@
 package org.IP.sesion02;
 
-import java.security.DrbgParameters.NextBytes;
 import java.util.Scanner;
 
 public class Ecuacionsegundogrado {
