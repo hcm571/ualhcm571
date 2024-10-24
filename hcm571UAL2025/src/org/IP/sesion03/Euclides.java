@@ -14,18 +14,15 @@ public class Euclides {
 		int y = entrada.nextInt();
 		
 		entrada.close();
-		if (x<y ){
-        System.out.println(" Valor incorrecto, x es menor que y");
-		}      if (x < y) {
+		    if (x < y) {
             System.out.println("Valor incorrecto, x es menor que y");
         } else {
             // Algoritmo de Euclides para encontrar el MCD
             while (y != 0) {
-                int resto = x % y; // Calcular el resto
+                int resto = x % y; // Calcular el resto a traves de la funcion módulo
                 x = y;             // Actualizar x con el valor de y
                 y = resto;         // Actualizar y con el valor del resto
             }
-            // Al terminar el bucle, x contiene el MCD
             System.out.println("El máximo común divisor es: " + x);
         }
     }
