@@ -89,7 +89,7 @@ while (true) {
 			System.out.println("3.Calcular la desviación estandar");
 			System.out.println("4.Volver al menu anterior");
 			System.out.println("seleccione una opcion");
-			int x = entrada.nextInt();
+			int x = entrada.nextInt(); 
 			
 			if (aleatorio != null & (x== 1|| x==2|| x==3)) {
 				for (int i =0; i<aleatorio.length; i++) {
